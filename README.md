@@ -11,7 +11,7 @@ pulse(url, milliseconds, callback());
 ```javascript
 const pulse = require('heroku-pulse');
 
-pulse('http://ha-playground.herokuapp.com/', 30000, (res) => {
+pulse('http://<YOUR-APP-URL>/', 30000, (res) => {
   console.log(res);
 })
 ```
